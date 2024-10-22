@@ -1,0 +1,40 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color:aqua;
+}
+h1{
+    text-align: center;
+    color: blue;
+}
+#fname{
+    text-align: center;
+    padding-top: 150px;
+    font-size: 20px;
+}
+#fname div{
+    padding: 15px 30px;
+
+    
+}
+button{
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: blue;
+    color: whitesmoke;
+    
+
+}
+input{
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    border: 2px solid palevioletred;
+}

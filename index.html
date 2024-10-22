@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+   
+    <form action="./sucess.html" id="fname">
+        <h1>User form validation</h1>
+        <div>
+            <label for="name">username :</label>
+            <input type="text" id="name" name="name"  required pattern="[a-zA-Z]{3,15}" title="atlist 3 digites enter name">
+        </div>
+        <div>
+            <label for="email">email :</label>
+            <input type="text" id="email" name="email" required pattern="[a-zA-Z0-9!-$]+@[a-z]+.[a-z]{2,}" title="atlist 15 char enter email">
+        </div>
+        <div>
+            <label for="password">password :</label>
+            <input type="password" id="password" name="pass"  required pattern="(?=.*[A-Z]{3})(?=.*[a-z]{3})(?=.*[@#$^%]{2}){8,15}" title="atlist 8 char enter password">
+        </div>
+       <button type="submit">submit</button>
+    </form>
+</body>
+</html>
